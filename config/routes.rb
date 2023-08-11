@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get "/users" => "users#index"
+
+  get "/clowns" => "clowns#index"
 end
