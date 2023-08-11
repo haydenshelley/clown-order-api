@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get "/users/:id" => "users#show"
 
   get "/clowns" => "clowns#index"
+  get "/clowns/:id" => "clowns#show"
 end
