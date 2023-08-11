@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get "/users" => "users#index"
+  get "/users/:id" => "users#show"
 
   get "/clowns" => "clowns#index"
 end
