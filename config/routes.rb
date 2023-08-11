@@ -10,4 +10,6 @@ Rails.application.routes.draw do
 
   get "/clowns" => "clowns#index"
   get "/clowns/:id" => "clowns#show"
+
+  post "/orders" => "orders#create"
 end
